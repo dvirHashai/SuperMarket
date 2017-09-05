@@ -1,0 +1,15 @@
+<marquee  behavior="scroll" direction="left"> {{messages}} </marquee>
+<div class="container">
+  <form (ngSubmit)="onCreateMessage()">
+    <div [formGroup]="myForm">
+      <div class="form-group">
+        <label for="newMessage"> newMessage</label>
+        <input type="text"  class="form-control" id="newMessage"
+               placeholder="Enter newMessage" formControlName="newMessage">
+      </div>
+      <input type="submit" class="btn btn-danger" value="Submit">
+    </div>
+  </form>
+</div>
+
+

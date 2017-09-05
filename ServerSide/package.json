@@ -1,0 +1,31 @@
+{
+  "name": "ServerSide",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "angular2-flash-message": "^1.0.2",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "chart.js": "^2.5.0",
+    "cors": "*",
+    "express": "*",
+    "feathers-client": "^1.9.0",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "ng2-charts": "^1.5.0",
+    "passport": "*",
+    "passport-jwt": "*",
+    "socket.io": "^1.7.3",
+    "socket.io-client": "^1.7.3"
+  },
+  "author": "Brad Traversy",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/socket.io-client": "^1.4.29"
+  }
+}
